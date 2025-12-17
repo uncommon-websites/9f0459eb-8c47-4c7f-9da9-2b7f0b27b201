@@ -6,7 +6,7 @@
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="mb-16">
             <h2 class="text-4xl md:text-5xl font-serif text-gray-900 leading-tight">
-                Streamline & Automate<br />Your Workflows
+                Comprehensive GRC<br />Modernization Services
             </h2>
         </div>
 
@@ -36,9 +36,9 @@
                         </div>
                     </div>
                 </div>
-                <h3 class="text-xl font-serif text-gray-900 mb-3">Firm-Specific Workflows</h3>
+                <h3 class="text-xl font-serif text-gray-900 mb-3">Compliance Automation</h3>
                 <p class="text-sm text-gray-500 leading-relaxed">
-                    Create and automate workflows tailored to your needs, reducing manual tasks and integrating seamlessly with your existing tools. Optimize processes for research, analysis, and reporting to improve efficiency and accuracy.
+                    Streamline regulatory compliance with AI-powered automation that reduces manual effort and ensures accuracy. Our expert consultants design workflows tailored to your institution's specific GRC requirements.
                 </p>
             </div>
 
@@ -72,9 +72,9 @@
                         </div>
                     </div>
                 </div>
-                <h3 class="text-xl font-serif text-gray-900 mb-3">AI Table Interface</h3>
+                <h3 class="text-xl font-serif text-gray-900 mb-3">Legacy System Integration</h3>
                 <p class="text-sm text-gray-500 leading-relaxed">
-                    Organize and manage data effortlessly with an interactive table interface. Sort, filter, and update information in real time, enabling structured analysis and seamless decision-making.
+                    Transform outdated systems with proven modernization roadmaps. Our 20+ years of experience ensures seamless integration of new technologies while maintaining operational continuity and data integrity.
                 </p>
             </div>
 
@@ -108,9 +108,9 @@
                         </div>
                     </div>
                 </div>
-                <h3 class="text-xl font-serif text-gray-900 mb-3">Material Creation</h3>
+                <h3 class="text-xl font-serif text-gray-900 mb-3">AI Implementation</h3>
                 <p class="text-sm text-gray-500 leading-relaxed">
-                    Generate reports, summaries, and presentations with AI-powered automation. Transform raw data into polished, professional materials while ensuring clarity and consistency.
+                    Deploy AI agents that augment your team's capabilities while maintaining compliance standards. Our consultants guide implementation from strategy through execution, ensuring measurable results.
                 </p>
             </div>
         </div>

@@ -1,26 +1,26 @@
 <script>
     const partners = [
-        { name: "Your Firm's Data", icon: "🏢" },
-        { name: "LSEG", icon: "🔵", color: "bg-blue-600" },
-        { name: "Dow Jones", icon: "D", color: "bg-blue-400" },
-        { name: "FactSet", icon: "F", color: "bg-blue-800" },
-        { name: "Capital IQ", icon: "S", color: "bg-red-600" },
-        { name: "PitchBook", icon: "P", color: "bg-blue-900" },
-        { name: "Preqin", icon: "P", color: "bg-purple-900" },
-        { name: "Real-time Web & News", icon: "🌐" },
-        { name: "SEC Filings", icon: "🏛️" },
-        { name: "Transcripts", icon: "📞" },
-        { name: "Investor Presentations", icon: "📊" },
-        { name: "International Filings", icon: "🌍" }
+        { name: "Regional Banks", icon: "🏦" },
+        { name: "Credit Unions", icon: "💳", color: "bg-primary-600" },
+        { name: "Investment Firms", icon: "📈", color: "bg-primary-700" },
+        { name: "Fintech Companies", icon: "💻", color: "bg-primary-800" },
+        { name: "SOC 2 Certified", icon: "✓", color: "bg-gray-700" },
+        { name: "ISO 27001", icon: "🔒", color: "bg-gray-800" },
+        { name: "GDPR Compliant", icon: "🛡️" },
+        { name: "CCPA Compliant", icon: "🔐" },
+        { name: "AWS Infrastructure", icon: "☁️", color: "bg-orange-500" },
+        { name: "Azure Integration", icon: "☁️", color: "bg-blue-600" },
+        { name: "GCP Compatible", icon: "☁️", color: "bg-blue-500" },
+        { name: "Enterprise Security", icon: "🔑" }
     ];
 </script>
 
 <section class="py-24 bg-white">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="mb-16 max-w-2xl">
-            <h2 class="text-3xl md:text-4xl font-serif text-gray-900 mb-6">Trusted Data</h2>
+            <h2 class="text-3xl md:text-4xl font-serif text-gray-900 mb-6">Trusted by Financial Institutions</h2>
             <p class="text-sm text-gray-500 leading-relaxed">
-                We partner with trusted data providers to bring the highest-quality financial information to our platform. Their expertise, combined with Rogo's technology, gives customers the clarity and confidence they need to move fast.
+                We serve regional banks, credit unions, and investment firms with enterprise-grade security and compliance. Our expertise spans the full spectrum of financial services, backed by industry certifications and proven modernization success.
             </p>
         </div>
 

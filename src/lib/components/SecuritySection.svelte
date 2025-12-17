@@ -9,33 +9,33 @@
             <div class="flex flex-col justify-center">
                 <div class="flex items-center gap-2 mb-8">
                     <Lock size={16} class="text-white" />
-                    <span class="text-xs font-mono uppercase tracking-widest text-gray-400">Security</span>
+                    <span class="text-xs font-mono uppercase tracking-widest text-gray-400">Security & Compliance</span>
                 </div>
 
-                <h2 class="text-4xl md:text-5xl font-serif mb-2">Built for Enterprise</h2>
-                <h2 class="text-4xl md:text-5xl font-serif mb-12">Secure by Design</h2>
+                <h2 class="text-4xl md:text-5xl font-serif mb-2">Enterprise-Grade</h2>
+                <h2 class="text-4xl md:text-5xl font-serif mb-12">Security Standards</h2>
 
                 <div class="space-y-4 mb-12">
                     <div class="flex items-center gap-3">
                         <Lock size={16} class="text-gray-400" />
-                        <span class="text-sm font-medium">No training on your data</span>
+                        <span class="text-sm font-medium">Financial-grade data protection</span>
                     </div>
                     <div class="flex items-center gap-3">
                         <Shield size={16} class="text-gray-400" />
-                        <span class="text-sm font-medium">Modern & secure data practices</span>
+                        <span class="text-sm font-medium">Regulatory compliance expertise</span>
                     </div>
                     <div class="flex items-center gap-3">
                         <Eye size={16} class="text-gray-400" />
-                        <span class="text-sm font-medium">End to end encryption</span>
+                        <span class="text-sm font-medium">Comprehensive audit trails</span>
                     </div>
                     <div class="flex items-center gap-3">
                         <FileCheck size={16} class="text-gray-400" />
-                        <span class="text-sm font-medium">Audited & tested</span>
+                        <span class="text-sm font-medium">Industry certifications</span>
                     </div>
                 </div>
 
                 <a href="#security" class="inline-flex items-center text-sm font-medium text-white hover:text-gray-300 transition-colors">
-                    Find out more <span class="ml-2">↗</span>
+                    Learn about our security <span class="ml-2">↗</span>
                 </a>
             </div>
 
