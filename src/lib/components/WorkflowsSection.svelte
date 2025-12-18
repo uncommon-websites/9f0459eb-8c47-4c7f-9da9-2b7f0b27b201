@@ -1,37 +1,48 @@
 <script>
-    import { Check, ArrowRight } from 'lucide-svelte';
+    import { Check, ArrowRight, Shield, Database, Bot } from 'lucide-svelte';
 </script>
 
-<section class="py-24 bg-white">
+<section id="services" class="py-24 bg-white">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="mb-16">
-            <h2 class="text-4xl md:text-5xl font-serif text-gray-900 leading-tight">
-                Comprehensive GRC<br />Modernization Services
+            <h2 class="text-4xl md:text-5xl font-serif text-gray-900 leading-[0.95] tracking-[-0.01em]">
+                From Strategy to Execution<br />Here's How We Deliver
             </h2>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Card 1: Firm-Specific Workflows -->
-            <div class="group">
-                <div class="mb-6 bg-[#0B231E] rounded-lg p-6 aspect-[4/3] relative overflow-hidden flex flex-col">
-                    <!-- Mock Interface -->
-                    <div class="bg-white rounded-lg p-4 shadow-lg w-full max-w-[90%] mx-auto mt-auto mb-4 transform translate-y-2 transition-transform group-hover:translate-y-0">
-                        <div class="flex items-center gap-2 mb-3 border-b pb-2">
-                            <div class="h-2 w-2 rounded-full bg-green-500"></div>
-                            <span class="text-[10px] font-mono text-gray-500">Benchmark Precedent Transactions</span>
+            <!-- Card 1: Compliance Automation -->
+            <div>
+                <div class="mb-6 bg-[#0B231E] rounded-lg p-6 aspect-[4/3] relative overflow-hidden flex items-center justify-center">
+                    <!-- Mock Interface: Compliance Dashboard -->
+                    <div class="bg-white rounded-lg p-5 shadow-lg w-full max-w-[92%]">
+                        <div class="flex items-center justify-between mb-3 border-b pb-2">
+                            <div class="flex items-center gap-2">
+                                <Shield size={12} class="text-primary-600" />
+                                <span class="text-[10px] font-medium text-gray-700">Compliance Tasks</span>
+                            </div>
+                            <span class="text-[9px] text-primary-600 font-medium">4/6 Complete</span>
                         </div>
                         <div class="space-y-2">
-                            <div class="flex items-center gap-2 text-xs text-green-700">
-                                <Check size={12} /> <span class="text-gray-600">Running workflow...</span>
+                            <div class="flex items-center gap-2 text-xs">
+                                <div class="h-3.5 w-3.5 rounded border-2 border-primary-500 bg-primary-500 flex items-center justify-center">
+                                    <Check size={10} class="text-white" />
+                                </div>
+                                <span class="text-gray-500 line-through">SOC 2 audit preparation</span>
                             </div>
-                            <div class="flex items-center gap-2 text-xs pl-4">
-                                <span class="h-1 w-1 rounded-full bg-gray-300"></span> <span class="text-gray-400">Identifying companies</span>
+                            <div class="flex items-center gap-2 text-xs">
+                                <div class="h-3.5 w-3.5 rounded border-2 border-primary-500 bg-primary-500 flex items-center justify-center">
+                                    <Check size={10} class="text-white" />
+                                </div>
+                                <span class="text-gray-500 line-through">Risk assessment review</span>
                             </div>
-                            <div class="flex items-center gap-2 text-xs pl-4">
-                                <span class="h-1 w-1 rounded-full bg-gray-300"></span> <span class="text-gray-400">Searching sources</span>
+                            <div class="flex items-center gap-2 text-xs">
+                                <div class="h-3.5 w-3.5 rounded border-2 border-gray-300 bg-white"></div>
+                                <span class="text-gray-700">Vendor compliance check</span>
                             </div>
-                            <div class="flex items-center gap-2 text-xs pl-4">
-                                <span class="h-1 w-1 rounded-full bg-gray-300"></span> <span class="text-gray-400">Retrieving company metrics</span>
+                            <div class="flex items-center gap-2 text-xs">
+                                <div class="h-3.5 w-3.5 rounded border-2 border-gray-300 bg-white"></div>
+                                <span class="text-gray-700">Policy documentation</span>
                             </div>
                         </div>
                     </div>
@@ -42,68 +53,67 @@
                 </p>
             </div>
 
-            <!-- Card 2: AI Table Interface -->
-            <div class="group">
-                <div class="mb-6 bg-[#0B231E] rounded-lg p-6 aspect-[4/3] relative overflow-hidden flex flex-col">
-                     <!-- Mock Interface -->
-                     <div class="bg-white rounded-lg p-4 shadow-lg w-full max-w-[90%] mx-auto mt-auto mb-4 transform translate-y-2 transition-transform group-hover:translate-y-0">
-                        <div class="text-[10px] text-gray-500 mb-2">Tariff impact on top manufacturing firms</div>
+            <!-- Card 2: Legacy System Modernization -->
+            <div>
+                <div class="mb-6 bg-[#0B231E] rounded-lg p-6 aspect-[4/3] relative overflow-hidden flex items-center justify-center">
+                     <!-- Mock Interface: System Migration -->
+                     <div class="bg-white rounded-lg p-5 shadow-lg w-full max-w-[92%]">
                         <div class="flex items-center gap-2 mb-3">
-                            <div class="h-4 w-4 bg-green-800 rounded flex items-center justify-center text-white text-[8px]">AI</div>
-                            <span class="text-[10px] text-gray-400">Found 12 sources</span>
+                            <Database size={12} class="text-primary-600" />
+                            <span class="text-[10px] font-medium text-gray-700">System Migration</span>
                         </div>
-                        <div class="space-y-2 border-t pt-2">
-                            <div class="grid grid-cols-3 gap-2 text-[8px] text-gray-400 font-medium">
-                                <div>Company</div>
-                                <div class="col-span-2 text-right">% Revenue from Int.</div>
+                        <div class="space-y-3">
+                            <div>
+                                <div class="flex justify-between text-[9px] mb-1">
+                                    <span class="text-gray-500">Legacy → Modern</span>
+                                    <span class="text-primary-600 font-medium">78%</span>
+                                </div>
+                                <div class="h-1.5 bg-gray-100 rounded-full overflow-hidden">
+                                    <div class="h-full bg-primary-500 rounded-full animate-progress-fill"></div>
+                                </div>
                             </div>
-                            <div class="grid grid-cols-3 gap-2 text-[9px] items-center">
-                                <div class="flex items-center gap-1"><div class="h-2 w-2 bg-gray-200 rounded-sm"></div> General Electric</div>
-                                <div class="col-span-2 h-1.5 bg-gray-100 rounded"></div>
-                            </div>
-                            <div class="grid grid-cols-3 gap-2 text-[9px] items-center">
-                                <div class="flex items-center gap-1"><div class="h-2 w-2 bg-gray-200 rounded-sm"></div> Boeing</div>
-                                <div class="col-span-2 h-1.5 bg-gray-100 rounded w-2/3 ml-auto"></div>
-                            </div>
-                            <div class="grid grid-cols-3 gap-2 text-[9px] items-center">
-                                <div class="flex items-center gap-1"><div class="h-2 w-2 bg-gray-200 rounded-sm"></div> Caterpillar</div>
-                                <div class="col-span-2 h-1.5 bg-gray-100 rounded w-1/2 ml-auto"></div>
+                            <div class="grid grid-cols-2 gap-2 pt-2 border-t">
+                                <div class="text-center p-2 bg-gray-50 rounded">
+                                    <div class="text-[10px] font-bold text-gray-900">2.4M</div>
+                                    <div class="text-[8px] text-gray-400">Records migrated</div>
+                                </div>
+                                <div class="text-center p-2 bg-gray-50 rounded">
+                                    <div class="text-[10px] font-bold text-primary-600">99.9%</div>
+                                    <div class="text-[8px] text-gray-400">Data integrity</div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <h3 class="text-xl font-serif text-gray-900 mb-3">Legacy System Integration</h3>
+                <h3 class="text-xl font-serif text-gray-900 mb-3">Legacy System Modernization</h3>
                 <p class="text-sm text-gray-500 leading-relaxed">
                     Transform outdated systems with proven modernization roadmaps. Our 20+ years of experience ensures seamless integration of new technologies while maintaining operational continuity and data integrity.
                 </p>
             </div>
 
-            <!-- Card 3: Material Creation -->
-            <div class="group">
-                <div class="mb-6 bg-[#0B231E] rounded-lg p-6 aspect-[4/3] relative overflow-hidden flex flex-col">
-                     <!-- Mock Interface -->
-                     <div class="bg-white rounded-lg p-4 shadow-lg w-full max-w-[90%] mx-auto mt-auto mb-4 transform translate-y-2 transition-transform group-hover:translate-y-0">
+            <!-- Card 3: AI Implementation -->
+            <div>
+                <div class="mb-6 bg-[#0B231E] rounded-lg p-6 aspect-[4/3] relative overflow-hidden flex items-center justify-center">
+                     <!-- Mock Interface: AI Agent -->
+                     <div class="bg-white rounded-lg p-5 shadow-lg w-full max-w-[92%]">
                         <div class="flex items-center gap-2 mb-3">
-                            <div class="h-4 w-4 bg-green-800 rounded flex items-center justify-center text-white text-[8px]">P</div>
-                            <span class="text-[10px] text-gray-500">Generating Powerpoint...</span>
-                        </div>
-                        <div class="text-[9px] text-gray-600 mb-3 leading-relaxed">
-                            Here is your requested deck. I customized your presentation template and included file with the backup data.
-                        </div>
-                        <div class="space-y-2">
-                            <div class="flex items-center justify-between p-1.5 bg-gray-50 rounded border border-gray-100">
-                                <div class="flex items-center gap-2">
-                                    <div class="h-4 w-4 bg-orange-500 rounded-sm"></div>
-                                    <span class="text-[9px] font-medium">TMT Market Overview.pptx</span>
-                                </div>
-                                <ArrowRight size={10} class="text-gray-400" />
+                            <div class="h-5 w-5 bg-gradient-to-br from-primary-500 to-primary-700 rounded flex items-center justify-center">
+                                <Bot size={12} class="text-white" />
                             </div>
-                            <div class="flex items-center justify-between p-1.5 bg-gray-50 rounded border border-gray-100">
-                                <div class="flex items-center gap-2">
-                                    <div class="h-4 w-4 bg-green-600 rounded-sm"></div>
-                                    <span class="text-[9px] font-medium">Tech Multiples Backup.xlsx</span>
+                            <span class="text-[10px] font-medium text-gray-700">AI Agent Active</span>
+                            <span class="ml-auto h-1.5 w-1.5 rounded-full bg-green-500 animate-pulse-slow"></span>
+                        </div>
+                        <div class="space-y-2 text-[9px]">
+                            <div class="bg-gray-50 rounded p-2 text-gray-600">
+                                Analyzing Q4 compliance reports across 12 departments<span class="animate-typing-dots">...</span>
+                            </div>
+                            <div class="flex items-center gap-2 text-gray-500">
+                                <div class="flex -space-x-1">
+                                    <div class="h-4 w-4 rounded-full bg-primary-100 border border-white"></div>
+                                    <div class="h-4 w-4 rounded-full bg-primary-200 border border-white"></div>
+                                    <div class="h-4 w-4 rounded-full bg-primary-300 border border-white"></div>
                                 </div>
-                                <ArrowRight size={10} class="text-gray-400" />
+                                <span>3 tasks automated today</span>
                             </div>
                         </div>
                     </div>
@@ -116,3 +126,34 @@
         </div>
     </div>
 </section>
+
+<style>
+    @keyframes progress-fill {
+        0% { width: 0%; }
+        100% { width: 78%; }
+    }
+    .animate-progress-fill {
+        animation: progress-fill 2s ease-out forwards;
+    }
+
+    @keyframes pulse-slow {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.4; }
+    }
+    .animate-pulse-slow {
+        animation: pulse-slow 2s ease-in-out infinite;
+    }
+
+    @keyframes typing-dots {
+        0%, 20% { content: '.'; }
+        40% { content: '..'; }
+        60%, 100% { content: '...'; }
+    }
+    .animate-typing-dots {
+        animation: blink 1.5s steps(1) infinite;
+    }
+    @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.3; }
+    }
+</style>

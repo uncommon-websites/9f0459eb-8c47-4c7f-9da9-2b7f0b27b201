@@ -12,8 +12,8 @@
                     <span class="text-xs font-mono uppercase tracking-widest text-gray-400">Security & Compliance</span>
                 </div>
 
-                <h2 class="text-4xl md:text-5xl font-serif mb-2">Enterprise-Grade</h2>
-                <h2 class="text-4xl md:text-5xl font-serif mb-12">Security Standards</h2>
+                <h2 class="text-4xl md:text-5xl font-serif leading-[0.95] tracking-[-0.01em] mb-2">Automated</h2>
+                <h2 class="text-4xl md:text-5xl font-serif leading-[0.95] tracking-[-0.01em] mb-12">Security Standards</h2>
 
                 <div class="space-y-4 mb-12">
                     <div class="flex items-center gap-3">
@@ -34,8 +34,8 @@
                     </div>
                 </div>
 
-                <a href="#security" class="inline-flex items-center text-sm font-medium text-white hover:text-gray-300 transition-colors">
-                    Learn about our security <span class="ml-2">↗</span>
+                <a href="/security" class="inline-flex items-center text-sm font-medium text-white hover:text-gray-300 transition-colors">
+                    Learn about our compliance automation services <span class="ml-2">↗</span>
                 </a>
             </div>
 

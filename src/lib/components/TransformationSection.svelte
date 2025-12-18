@@ -2,24 +2,21 @@
     import { FileText, Database, Settings, Search } from 'lucide-svelte';
 </script>
 
-<section class="py-24 bg-white">
+<section id="solutions" class="py-24 bg-white">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="mb-20">
-            <h2 class="text-4xl md:text-5xl font-serif text-gray-900 leading-tight max-w-4xl">
-                Capturing the <span class="font-semibold">$50B fintech consulting market</span> with AI-augmented delivery that transforms GRC modernization.
+            <h2 class="text-4xl md:text-5xl font-serif text-gray-900 leading-[0.95] tracking-[-0.01em] max-w-4xl">
+                The <span class="font-semibold">modernization partner with AI expertise</span> built for regulated industries
             </h2>
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <!-- Left: Image/Interface -->
+            <!-- Left: Interface with Grid Background -->
             <div class="relative">
-                <div class="relative rounded-lg overflow-hidden shadow-2xl bg-gray-900 aspect-[4/3]">
-                    <img 
-                        src="/generated/image-financial-technology-team-collaborating--1766011367793-2.webp" 
-                        alt="Financial technology team collaboration" 
-                        class="absolute inset-0 w-full h-full object-cover opacity-60"
-                    />
-                    
+                <div class="relative rounded-lg overflow-hidden aspect-[4/3] bg-primary-900">
+                    <!-- Grid Pattern -->
+                    <div class="absolute inset-0 opacity-20" style="background-image: linear-gradient(to right, rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.1) 1px, transparent 1px); background-size: 40px 40px;"></div>
+
                     <!-- Floating Interface Element -->
                     <div class="absolute inset-0 flex items-center justify-center p-8">
                         <div class="bg-white rounded-lg shadow-xl w-full max-w-md p-6">
@@ -32,11 +29,6 @@
                             <div class="space-y-2">
                                 <div class="h-2 bg-gray-100 rounded w-3/4"></div>
                                 <div class="h-2 bg-gray-100 rounded w-1/2"></div>
-                            </div>
-                            
-                            <!-- Arrow indicator -->
-                            <div class="absolute left-4 top-1/2 -translate-y-1/2 bg-white rounded-full p-2 shadow-lg">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
                             </div>
                         </div>
                     </div>
