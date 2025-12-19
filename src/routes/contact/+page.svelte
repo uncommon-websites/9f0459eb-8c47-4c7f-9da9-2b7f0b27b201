@@ -12,13 +12,40 @@
 
     let isSubmitting = false;
     let isSubmitted = false;
+    let submitError = '';
 
     async function handleSubmit() {
         isSubmitting = true;
-        // Simulate form submission - replace with actual form handler
-        await new Promise(resolve => setTimeout(resolve, 1000));
-        isSubmitting = false;
-        isSubmitted = true;
+        submitError = '';
+
+        try {
+            const response = await fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify({
+                    access_key: '493b7183-4619-495d-b8a4-5cf43636c87b',
+                    name: formData.name,
+                    email: formData.email,
+                    company: formData.company,
+                    message: formData.message
+                })
+            });
+
+            const result = await response.json();
+
+            if (result.success) {
+                isSubmitted = true;
+            } else {
+                submitError = result.message || 'Something went wrong. Please try again.';
+            }
+        } catch (error) {
+            submitError = 'Failed to send message. Please try again.';
+        } finally {
+            isSubmitting = false;
+        }
     }
 </script>
 
@@ -137,6 +164,12 @@
                                     placeholder="I'm interested in learning more about..."
                                 ></textarea>
                             </div>
+
+                            {#if submitError}
+                                <div class="p-3 bg-red-50 border border-red-200 rounded-lg text-sm text-red-600">
+                                    {submitError}
+                                </div>
+                            {/if}
 
                             <button
                                 type="submit"
