@@ -2,15 +2,15 @@
     import { Check, ArrowRight, Shield, Database, Bot } from 'lucide-svelte';
 </script>
 
-<section id="services" class="py-24 bg-white">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div class="mb-16">
-            <h2 class="text-4xl md:text-5xl font-serif text-gray-900 leading-[0.95] tracking-[-0.01em]">
+<section id="services" class="py-12 sm:py-16 md:py-24 bg-white">
+    <div class="mx-auto max-w-[1400px] px-5 sm:px-12 lg:px-16">
+        <div class="mb-8 sm:mb-12 md:mb-16">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif text-gray-900 leading-[1.1] sm:leading-[0.95] tracking-[-0.01em]">
                 From Strategy to Execution<br />Here's How We Deliver
             </h2>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
             <!-- Card 1: Compliance Automation -->
             <div>
                 <div class="mb-6 bg-[#0B231E] rounded-lg p-6 aspect-[4/3] relative overflow-hidden flex items-center justify-center">

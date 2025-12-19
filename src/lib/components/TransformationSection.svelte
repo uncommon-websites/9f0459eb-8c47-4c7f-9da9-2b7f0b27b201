@@ -2,17 +2,17 @@
     import { FileText, Database, Settings, Search } from 'lucide-svelte';
 </script>
 
-<section id="solutions" class="py-24 bg-white">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div class="mb-20">
-            <h2 class="text-4xl md:text-5xl font-serif text-gray-900 leading-[0.95] tracking-[-0.01em] max-w-4xl">
+<section id="solutions" class="py-12 sm:py-16 md:py-24 bg-white">
+    <div class="mx-auto max-w-[1400px] px-5 sm:px-12 lg:px-16">
+        <div class="mb-10 sm:mb-16 md:mb-20">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif text-gray-900 leading-[1.1] sm:leading-[0.95] tracking-[-0.01em] max-w-4xl">
                 The <span class="font-semibold">modernization partner with AI expertise</span> built for regulated industries
             </h2>
         </div>
 
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8 sm:gap-10 lg:gap-16">
             <!-- Left: Interface with Grid Background -->
-            <div class="relative">
+            <div class="relative lg:w-[52%] lg:flex-shrink-0">
                 <div class="relative rounded-lg overflow-hidden aspect-[4/3] bg-primary-900">
                     <!-- Grid Pattern -->
                     <div class="absolute inset-0 opacity-20" style="background-image: linear-gradient(to right, rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.1) 1px, transparent 1px); background-size: 40px 40px;"></div>
@@ -36,32 +36,38 @@
             </div>
 
             <!-- Right: Features List -->
-            <div class="space-y-12">
-                <h3 class="text-2xl font-serif text-gray-900">
+            <div class="lg:w-[42%]">
+                <h3 class="text-2xl font-serif text-gray-900 mb-10">
                     Expert Consultants + AI Agents <br/> Delivering Proven Results
                 </h3>
 
-                <div class="space-y-8">
+                <div class="grid grid-cols-2 gap-4">
                     {#each [
-                        { id: '01', title: 'GRC modernization expertise', icon: Database },
-                        { id: '02', title: 'Legacy system transformation', icon: Search },
-                        { id: '03', title: 'AI-augmented implementation', icon: Settings },
-                        { id: '04', title: 'Proven modernization roadmaps', icon: FileText }
-                    ] as feature}
-                        <div class="flex items-start gap-4 group cursor-pointer">
-                            <div class="flex-shrink-0 relative">
-                                <div class="h-10 w-10 rounded-full border border-gray-200 flex items-center justify-center text-xs font-mono text-gray-500 group-hover:border-black group-hover:text-black transition-colors bg-white z-10 relative">
-                                    {feature.id}
+                        { id: '01', title: 'GRC modernization expertise', icon: Database, desc: 'Deep regulatory knowledge' },
+                        { id: '02', title: 'Legacy system transformation', icon: Search, desc: 'Seamless migration paths' },
+                        { id: '03', title: 'AI-augmented implementation', icon: Settings, desc: 'Intelligent automation' },
+                        { id: '04', title: 'Proven modernization roadmaps', icon: FileText, desc: 'Battle-tested strategies' }
+                    ] as feature, i}
+                        <div
+                            class="group relative p-5 rounded-lg border border-gray-100 bg-white hover:border-gray-200 hover:bg-gray-50/50 hover:-translate-y-0.5 transition-all duration-200 cursor-pointer"
+                        >
+                            <!-- Left accent bar -->
+                            <div class="absolute left-0 top-3 bottom-3 w-0.5 bg-primary-600 rounded-full scale-y-0 group-hover:scale-y-100 transition-transform duration-200 origin-top"></div>
+
+                            <div class="flex items-center justify-between mb-3">
+                                <div class="h-9 w-9 rounded-lg bg-primary-900 flex items-center justify-center text-white">
+                                    <svelte:component this={feature.icon} size={16} strokeWidth={1.5} />
                                 </div>
-                                {#if feature.id !== '04'}
-                                    <div class="absolute top-10 left-1/2 -translate-x-1/2 w-px h-8 bg-gray-100 -z-0"></div>
-                                {/if}
+                                <span class="text-[10px] font-mono text-gray-300 group-hover:text-primary-600 transition-colors">{feature.id}</span>
                             </div>
-                            <div class="pt-2">
-                                <h4 class="text-lg text-gray-600 group-hover:text-gray-900 transition-colors font-light">
-                                    {feature.title}
-                                </h4>
-                            </div>
+
+                            <h4 class="text-sm font-medium text-gray-900 leading-snug mb-1.5">
+                                {feature.title}
+                            </h4>
+
+                            <p class="text-xs text-gray-400">
+                                {feature.desc}
+                            </p>
                         </div>
                     {/each}
                 </div>

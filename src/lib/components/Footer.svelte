@@ -2,10 +2,10 @@
     const currentYear = new Date().getFullYear();
 </script>
 
-<footer class="bg-white pt-24 pb-12">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<footer class="bg-white pt-12 sm:pt-16 md:pt-24 pb-8 sm:pb-12">
+    <div class="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
         <!-- Top Section -->
-        <div class="flex flex-col md:flex-row justify-between items-start mb-24 gap-12">
+        <div class="flex flex-col md:flex-row justify-between items-start mb-12 sm:mb-16 md:mb-24 gap-8 sm:gap-12">
             <div class="max-w-xl">
                 <div class="mb-8">
                     <img src="/altura_logo_black.svg" alt="Altura Labs" class="h-10" />
@@ -22,7 +22,7 @@
         </div>
 
         <!-- Links Grid -->
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-24 border-t border-gray-100 pt-16">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 mb-12 sm:mb-16 md:mb-24 border-t border-gray-100 pt-8 sm:pt-12 md:pt-16">
             <div>
                 <h4 class="text-[10px] font-mono uppercase tracking-widest text-gray-500 mb-6">Services</h4>
                 <ul class="space-y-4">

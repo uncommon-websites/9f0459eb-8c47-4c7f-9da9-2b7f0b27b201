@@ -25,7 +25,7 @@
 <main class="min-h-screen bg-white font-sans text-gray-900 selection:bg-gray-900 selection:text-white">
     <Header />
 
-    <section class="py-24">
+    <section class="py-12 sm:py-16 md:py-24">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
                 <!-- Left: Content -->
@@ -52,13 +52,13 @@
                             </div>
                         </a>
 
-                        <a href="mailto:hello@alturalabs.com" class="flex items-center gap-4 p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                        <a href="mailto:hello@altura.finance" class="flex items-center gap-4 p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
                             <div class="h-12 w-12 rounded-full bg-gray-200 flex items-center justify-center text-gray-600">
                                 <Mail size={20} />
                             </div>
                             <div>
                                 <div class="font-medium text-gray-900">Email Us</div>
-                                <div class="text-sm text-gray-500">hello@alturalabs.com</div>
+                                <div class="text-sm text-gray-500">hello@altura.finance</div>
                             </div>
                         </a>
                     </div>
@@ -66,7 +66,7 @@
                     <!-- Location -->
                     <div class="flex items-center gap-3 text-sm text-gray-500">
                         <MapPin size={16} />
-                        <span>New York, NY</span>
+                        <span>Panamá City, Panamá</span>
                     </div>
                 </div>
 

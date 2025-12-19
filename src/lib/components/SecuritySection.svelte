@@ -2,20 +2,20 @@
     import { Lock, Shield, Eye, FileCheck } from 'lucide-svelte';
 </script>
 
-<section class="bg-[#111111] text-white py-24">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+<section class="bg-[#111111] text-white py-12 sm:py-16 md:py-24">
+    <div class="mx-auto max-w-[1400px] px-5 sm:px-12 lg:px-16">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-12 lg:gap-16">
             <!-- Left Content -->
             <div class="flex flex-col justify-center">
-                <div class="flex items-center gap-2 mb-8">
+                <div class="flex items-center gap-2 mb-4 sm:mb-6 md:mb-8">
                     <Lock size={16} class="text-white" />
                     <span class="text-xs font-mono uppercase tracking-widest text-gray-400">Security & Compliance</span>
                 </div>
 
-                <h2 class="text-4xl md:text-5xl font-serif leading-[0.95] tracking-[-0.01em] mb-2">Automated</h2>
-                <h2 class="text-4xl md:text-5xl font-serif leading-[0.95] tracking-[-0.01em] mb-12">Security Standards</h2>
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-serif leading-[0.95] tracking-[-0.01em] mb-2">Automated</h2>
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-serif leading-[0.95] tracking-[-0.01em] mb-6 sm:mb-8 md:mb-12">Security Standards</h2>
 
-                <div class="space-y-4 mb-12">
+                <div class="space-y-3 sm:space-y-4 mb-6 sm:mb-8 md:mb-12">
                     <div class="flex items-center gap-3">
                         <Lock size={16} class="text-gray-400" />
                         <span class="text-sm font-medium">Financial-grade data protection</span>

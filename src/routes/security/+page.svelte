@@ -1,14 +1,14 @@
 <script>
     import Header from "$lib/components/Header.svelte";
     import Footer from "$lib/components/Footer.svelte";
-    import { Lock, Shield, Eye, FileCheck } from 'lucide-svelte';
+    import { Lock, Shield, Eye, FileCheck, Search, Building, Users } from 'lucide-svelte';
 </script>
 
 <main class="min-h-screen bg-white font-sans text-gray-900 selection:bg-gray-900 selection:text-white">
     <Header />
 
     <!-- Hero Section - matches homepage SecuritySection -->
-    <section class="bg-[#111111] text-white py-24 md:py-32">
+    <section class="bg-[#111111] text-white py-12 sm:py-16 md:py-32">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
                 <!-- Left Content -->
@@ -87,7 +87,7 @@
     </section>
 
     <!-- Detailed Security Content -->
-    <section class="py-24">
+    <section class="py-12 sm:py-16 md:py-24">
         <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
             <div class="space-y-12 text-xl md:text-2xl font-serif text-gray-900 leading-[1.4] tracking-[-0.01em]">
                 <p>
@@ -99,41 +99,41 @@
                 </p>
             </div>
 
-            <!-- Security Pillars -->
+            <!-- Security Services -->
             <div class="mt-20 pt-12 border-t border-gray-100">
-                <h2 class="text-2xl font-serif text-gray-900 mb-10">Our Security Principles</h2>
+                <h2 class="text-2xl font-serif text-gray-900 mb-10">Security Services</h2>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div class="bg-gray-50 rounded-2xl p-6">
                         <div class="h-10 w-10 rounded-xl bg-primary-100 flex items-center justify-center text-primary-600 mb-4">
-                            <Lock size={20} />
+                            <Search size={20} />
                         </div>
-                        <h3 class="font-medium text-gray-900 mb-2">Data Encryption</h3>
-                        <p class="text-sm text-gray-500">All data encrypted at rest and in transit using industry-standard AES-256 and TLS 1.3.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-2xl p-6">
-                        <div class="h-10 w-10 rounded-xl bg-primary-100 flex items-center justify-center text-primary-600 mb-4">
-                            <Shield size={20} />
-                        </div>
-                        <h3 class="font-medium text-gray-900 mb-2">Infrastructure Security</h3>
-                        <p class="text-sm text-gray-500">Hosted on SOC 2 compliant cloud infrastructure with continuous monitoring and automated threat detection.</p>
-                    </div>
-
-                    <div class="bg-gray-50 rounded-2xl p-6">
-                        <div class="h-10 w-10 rounded-xl bg-primary-100 flex items-center justify-center text-primary-600 mb-4">
-                            <Eye size={20} />
-                        </div>
-                        <h3 class="font-medium text-gray-900 mb-2">Access Controls</h3>
-                        <p class="text-sm text-gray-500">Role-based access with multi-factor authentication. Principle of least privilege enforced across all systems.</p>
+                        <h3 class="font-medium text-gray-900 mb-2">Security Assessments</h3>
+                        <p class="text-sm text-gray-500">Comprehensive audits of your current security posture. We identify gaps, prioritize risks, and build remediation roadmaps tailored to your regulatory environment.</p>
                     </div>
 
                     <div class="bg-gray-50 rounded-2xl p-6">
                         <div class="h-10 w-10 rounded-xl bg-primary-100 flex items-center justify-center text-primary-600 mb-4">
                             <FileCheck size={20} />
                         </div>
-                        <h3 class="font-medium text-gray-900 mb-2">Compliance</h3>
-                        <p class="text-sm text-gray-500">SOC 2 Type II certified. Regular third-party penetration testing and security audits.</p>
+                        <h3 class="font-medium text-gray-900 mb-2">Compliance Implementation</h3>
+                        <p class="text-sm text-gray-500">End-to-end implementation of SOC 2, ISO 27001, and industry-specific frameworks. From policy development to audit readiness.</p>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-2xl p-6">
+                        <div class="h-10 w-10 rounded-xl bg-primary-100 flex items-center justify-center text-primary-600 mb-4">
+                            <Building size={20} />
+                        </div>
+                        <h3 class="font-medium text-gray-900 mb-2">Security Architecture</h3>
+                        <p class="text-sm text-gray-500">Design and implement security controls for cloud migrations, legacy integrations, and AI deployments. Built for your specific infrastructure.</p>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-2xl p-6">
+                        <div class="h-10 w-10 rounded-xl bg-primary-100 flex items-center justify-center text-primary-600 mb-4">
+                            <Users size={20} />
+                        </div>
+                        <h3 class="font-medium text-gray-900 mb-2">Ongoing Advisory</h3>
+                        <p class="text-sm text-gray-500">Continuous security guidance as your organization evolves. Vendor assessments, incident response planning, and board-level reporting.</p>
                     </div>
                 </div>
             </div>

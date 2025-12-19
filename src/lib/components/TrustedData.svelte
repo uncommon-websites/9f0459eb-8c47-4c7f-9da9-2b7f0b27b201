@@ -3,7 +3,7 @@
 </script>
 
 <section class="py-24 bg-white">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-[1400px] px-8 sm:px-12 lg:px-16">
         <div class="mb-16 max-w-2xl">
             <h2 class="text-3xl md:text-4xl font-serif text-gray-900 leading-[0.95] tracking-[-0.01em] mb-6">Trusted by Financial Institutions</h2>
             <p class="text-sm text-gray-500 leading-relaxed">

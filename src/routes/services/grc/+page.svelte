@@ -7,7 +7,7 @@
 <main class="min-h-screen bg-white font-sans text-gray-900 selection:bg-gray-900 selection:text-white">
     <Header />
 
-    <section class="py-24 md:py-32">
+    <section class="py-12 sm:py-16 md:py-32">
         <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
             <div class="mb-12">
                 <span class="text-[10px] font-mono uppercase tracking-widest text-gray-500">Services</span>
